@@ -49,7 +49,7 @@ def profile_int_and_path(variable, text_path):
     return f'User : {variable} - {text_path}'    # profile_int_path/1234/test/something --> User : 1234 - test/something
 
 
-# with app.test_request_context():    # Тестовый менеджер запроса с передачей динамичекого аргумента
+# with app.test_request_context():    # Тестовый менеджер запроса с передачей динамического аргумента
 #     print(url_for('profile', username='Alex'))
 
 
